@@ -14,8 +14,8 @@ DEBUG = not True
 
 if DEBUG==False:
     print("\033[1;35;40m Running in production mode")
-    TOKEN = "1137661512:AAEig943WBK2aCBhlrDxgpN6Tl__lpxOMUY" #FCX trading bot
-    URL = 'https://fcx-trading.herokuapp.com/'
+    TOKEN = "1509904693:AAHYgK6Ovb7StTaVJYD90fDokabJp1KdmOc" #FCX trading bot
+    URL = 'https://velturescoin.herokuapp.com/'
     try:
         import os
         DATABASE_URL = os.environ['DATABASE_URL']

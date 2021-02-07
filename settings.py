@@ -14,8 +14,8 @@ DEBUG = not True
 
 if DEBUG==False:
     print("\033[1;35;40m Running in production mode")
-    TOKEN = "1137661512:AAEig943WBK2aCBhlrDxgpN6Tl__lpxOMUY" #FCX trading bot
-    URL = 'https://fcx-trading.herokuapp.com/'
+    TOKEN = "1509904693:AAHYDwsbWXib1lEDPOlr1ywB7pVHqEKuVAM" #FCX trading bot
+    URL = 'https://velturescoin.herokuapp.com/'
     try:
         import os
         DATABASE_URL = os.environ['DATABASE_URL']
@@ -32,7 +32,7 @@ else:
     print("\033[1;32;40m Running in Development mode")
     TOKEN = "852053528:AAHL_ryUUJ1JOhenzmI0WDiayAnxxqGFmyU"
 
-    # TOKEN = "746406709:AAHGsGOKxHwPOhRMdUOM5JNKsVxI2cCTbyQ" #fcxtrader bot
+    # TOKEN = "1666693670:AAE71sC7ksc34ayCfi9ML7gzRWdIzg33t0o" #fcxtrader bot
     URL = "https://3a7a746b.ngrok.io/"
     DATABASE_URL = 'postgres+psycopg2://postgres:postgres@localhost:5432'
     ADMIN_ID = 1053579181

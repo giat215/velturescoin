@@ -30,12 +30,12 @@ if DEBUG==False:
 
 else:
     print("\033[1;32;40m Running in Development mode")
-    TOKEN = "852053528:AAHL_ryUUJ1JOhenzmI0WDiayAnxxqGFmyU"
+    TOKEN = "1666693670:AAE71sC7ksc34ayCfi9ML7gzRWdIzg33t0o"
 
     # TOKEN = "746406709:AAHGsGOKxHwPOhRMdUOM5JNKsVxI2cCTbyQ" #fcxtrader bot
     URL = "https://3a7a746b.ngrok.io/"
     DATABASE_URL = 'postgres+psycopg2://postgres:postgres@localhost:5432'
-    ADMIN_ID = 1053579181
+    ADMIN_ID = 1258031045
 
     SQLITE = 'sqlite:///database/database.db'
     engine = create_engine(SQLITE, echo=True, connect_args={'check_same_thread': False})
